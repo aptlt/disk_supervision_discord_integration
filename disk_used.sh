@@ -62,13 +62,13 @@ do
     if (( "${spaceUsedPourcentWithout}" >= ${space_used_notify} ))
     then
         couleur=0xD21D38
-	    notify_owner="<@310891284900610048>"
+	    notify_owner="<@code_discord_user_to_notify>"
     fi
 
 done
 
 ## Declaration de la variable DISCORD_WEBHOOK
-DISCORD_WEBHOOK=https://discordapp.com/api/webhooks/831524538226835496/HcfWvUlc--Y6JV6IP2qkwDpMSGHCDZedPGr9eCmV6v5ng9ktsZlsNzC8hD89ptrSnPX4
+DISCORD_WEBHOOK=https://URL_WEBHOOK_DISCORD
 export DISCORD_WEBHOOK
 
 ## Supprimer les retour a la ligne et les remplacer par le string "\n"
